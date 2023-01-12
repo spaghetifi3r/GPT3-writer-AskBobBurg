@@ -36,20 +36,20 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer | buildspace</title>
+        <title>GPT-3 Writer Bob Burg| buildspace</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Ask Jesus about Faith and Love</h1>
+            <h1>Ask Bob Burg questions you have about Life</h1>
           </div>
           <div className="header-subtitle">
-            <h2>If you could ask Jesus anything, what would you ask?</h2>
+            <h2>Do you have a problem in your life are struggling with or stuck on?</h2>
           </div>
         </div>
         <div className="prompt-container">
           <textarea 
-          placeholder="What would you like to ask Jesus Christ?" 
+          placeholder="What would you like to ask Bob Burg?" 
           className="prompt-box"          
           value={userInput}
           onChange={onUserChangedText}
@@ -64,7 +64,7 @@ const Home = () => {
                 {isGenerating ? (
                   <span className="loader"></span>
                 ) : (
-                  <p>Generate</p>
+                  <p>Ask</p>
                 )}
               </div>
             </a>
@@ -74,7 +74,7 @@ const Home = () => {
           <div className="output">
             <div className="output-header-container">
               <div className="output-header">
-                <h3>Output</h3>
+                <h3>Bob Burg</h3>
               </div>
             </div>
             <div className="output-content">

@@ -7,7 +7,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix = `
-This is a conversation with Jesus Christ, loving son of God.
+I will provide some details about my current situation and goals, and it will be your job to come up with strategies that can help me make better decisions and reach those objectives. This could involve offering advice on various topics, such as creating plans for achieving success or dealing with difficult emotions.
 
 Me:
 `;
@@ -26,13 +26,13 @@ const generateAction = async (req, res) => {
 
 	// I build Prompt #2.
 	const secondPrompt = `
- Take the converstaion and input God's thoughts and generate written in thwe style of Paul Graham. Make it feel like a story with advice. Don't just list the points. Go deep into each one. Explain why.
+ Take the converstaion and input life coach Bob Burg author of "The Go-Giver", thoughts and generate written in thwe style of Paul Graham. Make it feel like a story with advice. Don't just list the points. Go deep into each one. Explain why.
 
  Me: ${req.body.userInput}
 
- Jesus Christ: ${basePromptOutput.text}
+ Life Coach: ${basePromptOutput.text}
 
- God:
+ Bob Burg:
  `;
 
 	// I call the OpenAI API a second time with Prompt #2
