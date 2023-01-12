@@ -36,12 +36,12 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer Bob Burg| buildspace</title>
+        <title>GPT-3 Writer Life Assistant| buildspace</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Ask Bob Burg questions you have about Life</h1>
+            <h1>Ask Life Assistant questions you have about Life</h1>
           </div>
           <div className="header-subtitle">
             <h2>Do you have a problem in your life are struggling with or stuck on?</h2>
@@ -74,7 +74,7 @@ const Home = () => {
           <div className="output">
             <div className="output-header-container">
               <div className="output-header">
-                <h3>Bob Burg</h3>
+                <h3>Life Assistant</h3>
               </div>
             </div>
             <div className="output-content">
